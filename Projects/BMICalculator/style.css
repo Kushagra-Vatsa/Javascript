@@ -1,0 +1,77 @@
+/* Container Styling */
+.container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Heading Styling */
+  h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Fields */
+  #height,
+  #weight {
+    width: 250px;
+    height: 35px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  /* Button Styling */
+  button {
+    width: 250px;
+    height: 40px;
+    margin-top: 20px;
+    background-color: #333;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #444;
+  }
+  
+  /* Results */
+  #results {
+    font-size: 18px;
+    margin-top: 15px;
+    color: #555;
+  }
+  
+  /* Weight Guide */
+  #weight-guide {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: left;
+    color: #333;
+  }
+  
+  #weight-guide h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #444;
+  }
+  
+  #weight-guide p {
+    margin: 5px 0;
+  }
+  

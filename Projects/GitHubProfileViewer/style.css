@@ -1,0 +1,129 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, sans-serif; 
+}
+
+body {
+    background-color: #eef2f3;
+    background-image: linear-gradient(135deg, #f0f0f0, #d9e4f5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+/* Container for the app */
+.container {
+    background-color: #ffffff;
+    border-radius: 12px; 
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15); 
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+    transition: transform 0.3s ease; 
+}
+
+.container:hover {
+    transform: scale(1.02);
+}
+
+h1 {
+    color: #2c3e50; 
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    letter-spacing: 0.5px; 
+}
+
+/* Input styling */
+input[type="text"] {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccd6dd;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #0366d6; 
+    box-shadow: 0 0 5px rgba(3, 102, 214, 0.3);
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 0.85rem;
+    background-color: #0366d6;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    box-shadow: 0 4px 10px rgba(0, 86, 179, 0.4); 
+}
+
+#profile {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+/* Profile image styling */
+#profile img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+/* Profile name styling */
+#profile h2 {
+    color: #2c3e50;
+    font-size: 1.6rem;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+}
+
+/* Profile text styling */
+#profile p {
+    color: #34495e;
+    margin-bottom: 0.5rem;
+    line-height: 1.4;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 480px) {
+    .container {
+        padding: 1.5rem;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    input[type="text"], button {
+        font-size: 1rem;
+    }
+
+    #profile img {
+        width: 120px;
+        height: 120px;
+    }
+
+    #profile h2 {
+        font-size: 1.4rem;
+    }
+}

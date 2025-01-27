@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.main {
+    width: 90%;
+    max-width: 750px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Top Controls */
+.top {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.block {
+    flex: 1;
+    min-width: 150px;
+}
+
+/* Adjust Input Sizes */
+.block input,
+.block select {
+    width: 100%;
+    padding: 6px;
+}
+
+/* Canvas */
+canvas {
+    border: 2px solid black;
+    display: block;
+    margin: 10px auto;
+    max-width: 100%;
+    background-color: #fff;
+}
+
+/* Bottom Buttons */
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.bottom button {
+    flex: 1;
+    min-width: 150px;
+    padding: 10px;
+    font-size: 16px;
+}
